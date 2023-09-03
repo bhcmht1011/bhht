@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/jz\.jarstones\.com\/api url script-response-body 
+^https?:\/\/jz\.jarstones\.com\/api url script-response-body https://raw.githubusercontent.com/bhcm1011/bhht/main/yifeijizhang.js
 
 [mitm]
 hostname = jz.jarstones.com
