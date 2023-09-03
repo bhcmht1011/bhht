@@ -1,13 +1,6 @@
-/*************************************
+*************************************
 
 项目名称：彩云天气-净化/SVIP
-下载地址：https://t.cn/A66d95hV
-脚本作者：chxm1023
-Token数据来源：@WeiRenQAQ
-电报频道：https://t.me/chxm1023
-使用声明：⚠️仅供参考，🈲转载与售卖！
-
-**************************************
 
 [rewrite_local]
 ^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
@@ -55,10 +48,10 @@ if ($request.url.indexOf('user') != -1){
         "svip_expired_at" : 4092599349,
         "svip_auto_renewal_type" : ""
       };
-    chxm1023.result.wt.svip_given = 9999;
+    chxm1023.result.wt.svip_given = 6666;
     chxm1023.result.wt.ranking_above = 99;
     chxm1023.result.is_phone_verified = true;
-    chxm1023.result.name = "叮当猫の分享频道";
+    chxm1023.result.name = "薄荷茶蘼海棠";
     chxm1023.result.avatar = "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLia6zPUuGQKVOJk2gnjpjHxSIuH7XaOJF2gEk9ic35ibib4QzUcbvNu6EpdHDc1Vciat1xg63ibK6EptWw/132";
     chxm1023.result.phone_num = "13145200000";
     chxm1023.result.vip_take_effect = 1;
