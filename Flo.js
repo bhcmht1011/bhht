@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.owhealth\.com\/subscriptions\/v1\/apple url script-response-body https://raw.githubusercontent.com/bhcm1011/automatic-pancake/main/Flo.js
+^https:\/\/api\.owhealth\.com\/subscriptions\/v1\/apple url script-response-body https://raw.githubusercontent.com/bhcm1011/bhht/main/Flo.js
 
 [mitm]
 hostname = api.owhealth.com
