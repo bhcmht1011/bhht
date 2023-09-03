@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.boohee\.com\/app-interface\/.+\/user\/user_info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bohejiankang.js
+^https?:\/\/api\.boohee\.com\/app-interface\/.+\/user\/user_info url script-response-body https://raw.githubusercontent.com/bhcm1011/bhht/main/bohejiankang.js
 
 [mitm]
 hostname = api.boohee.com
