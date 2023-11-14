@@ -12,7 +12,7 @@
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body 
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/bhcmht1011/bhht/main/Scanner.js
 
 [mitm] 
 
