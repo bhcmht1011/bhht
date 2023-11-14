@@ -10,15 +10,7 @@
 *******************************
 
 [rewrite_local]
-
-
-2 minutes ago
-
-Update Scanner.js
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/bhcmht1011/bhht/main/Scanner.js
-2 minutes ago
-
-Create Scanner.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/bhcmht1011/bhht/main/Scanner.js
 
 [mitm] 
 
